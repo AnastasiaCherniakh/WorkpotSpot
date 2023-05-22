@@ -1,0 +1,69 @@
+@use 'globals' as *;
+.header_landing {
+
+    &__logo {
+
+        p {
+            width: rem(200);
+            height: rem(22);
+            font-size: 28px;
+            font-weight: 400;
+            }
+    }
+}
+
+.webapp-title {
+    background-color: lightblue;
+
+    @include breakpoint-up(large) {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        background-image: url(../images/webapp-title-img.svg);
+        background-size: 100%;
+        height: 100%;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        min-height: 29rem;
+
+        @include breakpoint-down(small) {
+            min-height: 19rem;
+        }
+
+        @include breakpoint-up(large) {
+            flex: 2;
+            order: 2;
+            height: rem(500);
+            background-size: 90%;
+        }
+
+    }
+        &__text {
+            text-align: center;
+            color: white;
+
+            @include breakpoint-up(large) {
+                flex: 2;
+                order: 1;
+                text-align: left;
+            }
+
+            h1 {
+                font-weight: 550;
+                line-height: 1;
+                margin-bottom: 1.5rem;
+                font-size: 66px;
+            }
+
+            p {
+                line-height: 1.5;
+                margin-bottom: 2.25rem;
+                font-size: 25px;
+            }
+    
+        }
+
+}
