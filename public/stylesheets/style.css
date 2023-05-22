@@ -239,4 +239,162 @@ button:hover, .button:hover {
   line-height: 1.5;
   margin-bottom: 2.25rem;
   font-size: 25px;
+}
+
+.login-body {
+  display: flex;
+  min-height: 90vh;
+}
+
+.login {
+  color: white;
+  background: #136a8a;
+  background: linear-gradient(to right, #4684a1, #6f95a3);
+  margin: auto;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.3), 0px 30px 60px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 90px;
+}
+.login__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__head__company {
+  font-size: 45px;
+}
+.login__msg {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.login__form input[type=email].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 7px;
+}
+.login__form .text::-moz-placeholder {
+  color: #D3D3D3;
+}
+.login__form .text::placeholder {
+  color: #D3D3D3;
+}
+.login__form input[type=password].password {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.login__form .password::-moz-placeholder {
+  color: #D3D3D3;
+}
+.login__form .password::placeholder {
+  color: #D3D3D3;
+}
+.login__form .login-btn {
+  margin: 30px 45px 0px 65px;
+}
+
+.sign-up-body {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sign-up {
+  color: white;
+  background: #136a8a;
+  background: linear-gradient(to right, #4684a1, #6f95a3);
+  margin: auto;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.3), 0px 30px 60px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  padding: 88px;
+}
+.sign-up__head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up__head__company {
+  font-size: 45px;
+}
+.sign-up__form input[type=email].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.sign-up__form .text::-moz-placeholder {
+  color: #D3D3D3;
+}
+.sign-up__form .text::placeholder {
+  color: #D3D3D3;
+}
+.sign-up__form input[type=text].username {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+.sign-up__form .username::-moz-placeholder {
+  color: #D3D3D3;
+}
+.sign-up__form .username::placeholder {
+  color: #D3D3D3;
+}
+.sign-up__form input[type=password].password {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.sign-up__form .password::-moz-placeholder {
+  color: #D3D3D3;
+}
+.sign-up__form .password::placeholder {
+  color: #D3D3D3;
+}
+.sign-up__form input[type=password].repeat_password {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px white;
+  width: 100%;
+  color: white;
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 7px;
+}
+.sign-up__form .repeat_password::-moz-placeholder {
+  color: #D3D3D3;
+}
+.sign-up__form .repeat_password::placeholder {
+  color: #D3D3D3;
+}
+.sign-up__form .sign-up-btn {
+  margin: 40px 45px 0px 69px;
 }/*# sourceMappingURL=style.css.map */
